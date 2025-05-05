@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Jogo de Tabuleiro 🎲</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>🏁 Corrida no Tabuleiro</h1>
+  <div class="tabuleiro" id="tabuleiro"></div>
+
+  <div class="painel">
+    <p id="turno">Vez de: Jogador 1</p>
+    <button onclick="jogarDado()">🎲 Jogar Dado</button>
+    <p id="dado">Resultado do dado: -</p>
+    <p id="vencedor"></p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
